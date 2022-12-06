@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header header {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,13 +32,17 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
+    float: right;
+    border-bottom: 10px;
+    
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+
 }
 
 a {
