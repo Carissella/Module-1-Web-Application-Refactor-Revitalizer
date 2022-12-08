@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/*Makes application background white*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Makes application header background blue, and gives font family*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/*Makes application header display as inline block style with font size of 48px*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Makes application header lettering "seo" font color white*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Makes application header class have font size of 20px with preferred font family of "gill sans", floats entire header and nav to right side of application*/
 .header header {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +37,7 @@ body {
     font-size: 20px;
 }
 
+/*Makes the nav display no bullet points and float right inside of header with 10px of bottom padding*/
 .header nav ul {
     list-style-type: none;
     float: right;
@@ -39,21 +45,20 @@ body {
     
 }
 
+/*Makes nav display in inline across the header with 25px of left margin in header*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 
 }
 
+/*Makes the links situated in the nav colored white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Makes class hero section display with image under header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -63,22 +68,52 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Makes all content between .hero class and .benefits class display with width of 75%, display as inline block with a left margin of 20px*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Makes all p tags font size 16px*/
+p {
+    font-size: 16px;
+}
+
+/*makes SEO and Social Media Marketing content float left on application site*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Makes Online Reputation Management content float right on application site*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Image for Online Reputation Management content*/
+.online-reputation-management img, .social-media-marketing img, .search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*Makes h2 tag within SEO, Social Media Marketing, and Online Reputation Management content section font size with 36px and bottom margin 20px*/
+.online-reputation-management h2, .social-media-marketing h2, .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Makes all contents within content class have preferred font family of "gill sans", backgroun color blue, and font color white. section has a height of 300px, padding of 50px, and bottom margin of 20px*/
+.online-reputation-management, .social-media-marketing, .search-engine-optimization{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Makes benefits class have right margin of 20px, padding of 20px, width of 20%, height of 100%, background color blue, with preferred font family of "gill sans", and floating content to the right of the application*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,108 +125,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*makes classes benefit lead, benefit brand, and benefit cost have bottom margin of 32px and font color white*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*makes h3 tags within each benefits class have bottom margin of 10px and centered text */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*Images of all benefits displayed as block, margin of 10px on top and bottm and auto px on left and right sides, and max-width of 150px*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*makes footer section padding with 30px and centered text, prefered font family of "trebuchet ms"*/
 .footer {
     padding: 30px;
     clear: both;
@@ -199,6 +152,7 @@ p {
     text-align: center;
 }
 
+/*makes h2 tag within footer section 20px*/
 .footer h2 {
     font-size: 20px;
 }
